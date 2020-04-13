@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv) {
     for(int i = 0; i < argc; ++i) {
-        printf("%i %s\n", i, argv[0]);
+        printf("%i %s\n", i, argv[i]);
     }
 
     printf("Hello, World\n");
